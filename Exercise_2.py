@@ -1,11 +1,11 @@
 array = [1, 2, 3, 4]
-border_element = 3
+num = 2
 
-def index_power(array, border_element):
-    if N >= len(array):
+def index_power(list_1, number):
+    if number >= len(list_1):
         return -1
     else:
-        return array[border_element] ** border_element
+        return list_1[number] ** number
 
-power = index_power(array, border_element)
+power = index_power(array, num)
 print (power)
